@@ -1,13 +1,12 @@
 import React from "react";
+import Form from "./Form";
 
-function page() {
+function home() {
   return (
     <>
-      <center>
-        <h1 className="text-3xl text-red-500">hello world</h1>
-      </center>
+      <Form />
     </>
   );
 }
 
-export default page;
+export default home;
